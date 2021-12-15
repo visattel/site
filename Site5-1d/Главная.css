@@ -1,4 +1,4 @@
- .u-section-1 {
+  .u-section-1 {
   background-image: url("images/dddd-min.jpg");
   background-position: 68.15% 72.19%;
 }
@@ -252,7 +252,7 @@
 
 @media (max-width: 767px) {
   .u-section-2 .u-text-1 {
-    font-size: 2.25rem;
+    font-size: 1.75rem;
   }
 
   .u-section-2 .u-list-1 {
@@ -750,7 +750,7 @@
   .u-section-4 .u-text-1 {
     margin-left: 0;
     margin-right: 0;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
   }
 
   .u-section-4 .u-repeater-1 {
@@ -1208,7 +1208,7 @@
 
 @media (max-width: 575px) {
   .u-section-6 .u-text-1 {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
   }
 
   .u-section-6 .u-text-2 {
