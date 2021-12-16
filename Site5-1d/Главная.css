@@ -1191,6 +1191,9 @@
   .u-section-6 .u-text-1 {
     font-size: 2.5rem;
   }
+  .u-section-6 .u-image-1 {
+    height: 150px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -1215,6 +1218,9 @@
     grid-template-columns: repeat(2, calc(50% - 5px));
     min-height: 318px;
   }
+  .u-section-6 .u-image-1 {
+    height: 150px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -1234,7 +1240,7 @@
 
   .u-section-6 .u-image-1 {
     width: 353px;
-    height: 93px;
+    height: 150px;
   }
 
   .u-section-6 .u-container-layout-2 {
@@ -1284,7 +1290,7 @@
   }
 
   .u-section-6 .u-image-1 {
-    height: 79px;
+    height: 150px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
