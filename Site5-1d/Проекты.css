@@ -1,4 +1,4 @@
-  .u-section-1 {
+ .u-section-1 {
   background-image: none;
 }
 
@@ -8,9 +8,9 @@
 
 .u-section-1 .u-text-1 {
   letter-spacing: normal;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 400;
-  margin: 60px 387px 0 0;
+  margin: 40px 0px 0 0;
 }
 
 .u-section-1 .u-btn-1 {
@@ -67,7 +67,7 @@
   }
 
   .u-section-1 .u-text-1 {
-    margin-right: 187px;
+    margin-right: 150px;
   }
 
   .u-section-1 .u-layout-cell-1 {
@@ -85,6 +85,7 @@
   }
 
   .u-section-1 .u-text-1 {
+    font-size: 2rem;
     margin-right: 0;
   }
 
