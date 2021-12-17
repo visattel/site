@@ -578,10 +578,14 @@
 }
 
 .u-section-4 .u-repeater-1 {
-  grid-template-columns: repeat(1, 100%);
-  min-height: 500px;
+  grid-template-columns: repeat(2, 49%);
+  min-height: 450px;
   grid-auto-columns:100% ;
   grid-gap: 13px;
+}
+
+.u-section-4 a {
+  color: #3773ac;
 }
 
 .u-section-4 .u-list-item-1 {
