@@ -1408,13 +1408,4 @@
    grid-template-columns: repeat(2, 50%);
   }
 }
-@media (max-width: 767px) {
-    .u-footer .u-repeater-1 {
-   grid-template-columns: repeat(2, 50%);
-  }
-}
-@media (max-width: 575px) {
-    .u-footer .u-repeater-1 {
-   grid-template-columns: repeat(1, 100%);
-  }
 }
