@@ -17454,6 +17454,7 @@ div.u-video,
 }
 .u-enable-responsive .u-nav-container-collapse {
   display: flex;
+  justify-content: flex-end;
 }
 .u-enable-responsive .u-nav-container {
   display: none;
@@ -17461,9 +17462,9 @@ div.u-video,
 .u-enable-responsive .u-menu-close {
   z-index: 1;
   position: relative;
-  width: 22px;
-  height: 28px;
-  margin: 20px 20px 0 auto;
+  width: 40px;
+  height: 100px;
+  margin: 30px 61px 0 auto;
   text-align: right;
   font-style: initial;
   letter-spacing: initial;
@@ -17472,7 +17473,7 @@ div.u-video,
 }
 .u-enable-responsive .u-menu-close:before {
   content: "\2715";
-  font-size: 28px !important;
+  font-size: 40px !important;
 }
 .u-enable-responsive.u-offcanvas .u-sidenav {
   height: 100vh;
@@ -17506,7 +17507,7 @@ div.u-video,
 }
 .u-enable-responsive:not(.u-offcanvas).open .u-sidenav {
   display: block;
-  flex-basis: 100%;
+  flex-basis: 50%;
   height: 100vh;
   height: -webkit-fill-available;
   border: none !important;
@@ -35244,7 +35245,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-nav-2 {
-  font-size: 1rem;
+  font-size: 1.1rem;
   letter-spacing: 0px;
 }
 @media (max-width: 1199px) {
