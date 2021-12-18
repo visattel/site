@@ -1103,7 +1103,7 @@
 
 .u-section-6 .u-repeater-1 {
   grid-template-columns: repeat(3, calc(33.3333% - 6.66667px));
-  min-height: 386px;
+  min-height: 360px;
   grid-gap: 10px;
 }
 
@@ -1113,7 +1113,7 @@
 }
 
 .u-section-6 .u-container-layout-1 {
-  padding: 30px;
+  padding: 10px;
 }
 
 .u-section-6 .u-image-1 {
