@@ -1227,6 +1227,7 @@
     font-size: 2rem;
     margin-left: 0;
     margin-right: 0;
+    margin-top: 0;
   }
 
   .u-section-6 .u-list-1 {
@@ -1245,6 +1246,7 @@
 }
 
 @media (max-width: 767px) {
+
   .u-section-6 .u-text-2 {
     width: 540px;
     margin-left: 0;
@@ -1303,6 +1305,7 @@
 
 @media (max-width: 575px) {
   .u-section-6 .u-text-1 {
+     margin: 0px auto 0;
     font-size: 1.5rem;
   }
 
