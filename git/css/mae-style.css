@@ -276,7 +276,6 @@ a:-webkit-any-link {
         }
         
         .block-animation:hover {
-          background-image: none;
           background-color: #cfd0d4;
         }
 
