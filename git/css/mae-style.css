@@ -171,6 +171,61 @@ h2 {
 	font-weight: bold;
 }
 
+.u-text-body-color, a.u-button-style.u-text-body-color, a.u-button-style.u-text-body-color[class*="u-border-"] {
+    color: #111111 !important;
+}
+.u-none.u-button-style, .u-none.u-button-style:hover, .u-none.u-button-style:focus, .u-none.u-button-style:active, .u-none.u-button-style.active, .u-button-style.u-hover-none:hover, .u-button-style.u-hover-none:focus, .u-button-style.u-active-none:active, .u-button-style.u-active-none.active, li.active > .u-button-style.u-active-none {
+    color: inherit !important;
+    background-color: transparent !important;
+}
+.u-inner-container-layout, .u-container-layout > * {
+    position: relative;
+}
+.u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > a, .u-gradient > .u-container-layout > a, .u-image:not(.u-shading) > .u-container-layout > a, a {
+    color: #275678;
+}
+a {
+    color: #244080;
+    text-decoration: none;
+}
+.u-link, a {
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+
+.link {
+     width: auto; /* Ширина слоя */
+     height: auto; /* Высота слоя */
+     background:  #666;/* Цвет фона */
+    }
+    .link, a {
+     display: block; /* Ссылка как блочный элемент */
+     text-align: left; /* Выравнивание по центру */
+     height: 100%; /* Высота на весь слой */
+    
+    }
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.u-tabs:not([class*="u-align-"]), .u-accordion:not([class*="u-align-"]), .u-repeater-item:not([class*="u-align-"]), .u-container-style:not([class*="u-align-"]) {
+    text-align: left;
+}
+.u-white, .u-body.u-white, .u-container-style.u-white:before, .u-container-layout.u-white:before, .u-table-alt-white tr:nth-child(even) {
+    color: #111111;
+    background-color: #ffffff;
+}
+
 .u-sheet:not(.u-image):not(.u-video) > * {
 	pointer-events: auto;
 	pointer-events: initial;
@@ -207,9 +262,21 @@ h2 {
     display: flex;
     position: relative;
 }
+
+.block-animation {
+          background-color: #fff;
+          transition: background-color 0.5s linear;
+          height: 100%;
+        }
+        
+        .block-animation:hover {
+          background-color: #cfd0d4;
+        }
+
 .u-section-4 .u-sheet-1 {
     min-height: 450px;
     width: 100%;
+    background: rgba(32, 64, 128, 1);
 }
 
 @media (min-width: 1200px){
@@ -284,22 +351,22 @@ h2 {
 }
 
 .u-section-4 .u-list-item-1 {
-  background: rgba(205, 214, 219, 0.3);
+  background: #fff;
 }
 .u-section-4 .u-list-item-2 {
-  background: rgba(205, 214, 219, 0.3);
+ background: #fff;
 }
 .u-section-4 .u-list-item-3 {
-  background: rgba(205, 214, 219, 0.3);
+  background: #fff;
 }
 .u-section-4 .u-list-item-4 {
-  background: rgba(205, 214, 219, 0.3);
+  background: #fff;
 }
 .u-section-4 .u-list-item-5 {
-  background: rgba(205, 214, 219, 0.3);
+  background: #fff;
 }
 .u-section-4 .u-list-item-6 {
-  background: rgba(205, 214, 219, 0.3);
+  background: #fff;
 }
 
 .u-section-4 .u-text-2{
@@ -371,12 +438,12 @@ h2 {
   }
 
   .u-section-4 .u-list-1 {
-    margin-top: 20px;
-    margin-bottom: 60px;
+    margin-top: 40px;
+    margin-bottom: 0px;
   }
 
   .u-section-4 .u-repeater-1 {
-    grid-template-columns: repeat(1, 100% - 10px);
+    grid-template-columns: repeat(1, calc(100% - 15px));
   }
 
 }
@@ -650,7 +717,7 @@ img {
     font-size: 2rem;
     margin-left: 0;
     margin-right: 0;
-    margin-top: 0;
+    margin-top: 40px;
   }
 
   .u-section-6 .u-list-1 {
@@ -786,59 +853,6 @@ img {
 
 ///
 
-.u-text-body-color, a.u-button-style.u-text-body-color, a.u-button-style.u-text-body-color[class*="u-border-"] {
-    color: #111111 !important;
-}
-.u-none.u-button-style, .u-none.u-button-style:hover, .u-none.u-button-style:focus, .u-none.u-button-style:active, .u-none.u-button-style.active, .u-button-style.u-hover-none:hover, .u-button-style.u-hover-none:focus, .u-button-style.u-active-none:active, .u-button-style.u-active-none.active, li.active > .u-button-style.u-active-none {
-    color: inherit !important;
-    background-color: transparent !important;
-}
-.u-inner-container-layout, .u-container-layout > * {
-    position: relative;
-}
-.u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > a, .u-gradient > .u-container-layout > a, .u-image:not(.u-shading) > .u-container-layout > a, a {
-    color: #275678;
-}
-a {
-    color: #244080;
-    text-decoration: none;
-}
-.u-link, a {
-    border-top-width: 0;
-    border-left-width: 0;
-    border-right-width: 0;
-}
 
-.link {
-     width: 300px; /* Ширина слоя */
-     height: 200px; /* Высота слоя */
-     background:  #666;/* Цвет фона */
-    }
-    .link a {
-     display: block; /* Ссылка как блочный элемент */
-     text-align: center; /* Выравнивание по центру */
-     height: 100%; /* Высота на весь слой */
-    
-    }
-a {
-    background-color: transparent;
-    -webkit-text-decoration-skip: objects;
-}
-*, *:before, *:after {
-    box-sizing: border-box;
-}
-user agent stylesheet
-a:-webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
-    text-decoration: underline;
-}
-.u-tabs:not([class*="u-align-"]), .u-accordion:not([class*="u-align-"]), .u-repeater-item:not([class*="u-align-"]), .u-container-style:not([class*="u-align-"]) {
-    text-align: left;
-}
-.u-white, .u-body.u-white, .u-container-style.u-white:before, .u-container-layout.u-white:before, .u-table-alt-white tr:nth-child(even) {
-    color: #111111;
-    background-color: #ffffff;
-}
 
 ////
