@@ -198,12 +198,12 @@ a {
      width: auto; /* Ширина слоя */
      height: auto; /* Высота слоя */
      background:  #666;/* Цвет фона */
+
     }
     .link, a {
      display: block; /* Ссылка как блочный элемент */
      text-align: left; /* Выравнивание по центру */
      height: 100%; /* Высота на весь слой */
-    
     }
 a {
     background-color: transparent;
@@ -261,6 +261,8 @@ a:-webkit-any-link {
 .u-repeater-item {
     display: flex;
     position: relative;
+    flex-direction: column;
+
 }
 
 .u-radius-20, .u-radius-20:before, .u-radius-20 .u-background-effect, .u-radius-20:not(.u-hover-box) > .u-container-layout {
@@ -274,6 +276,7 @@ a:-webkit-any-link {
         }
         
         .block-animation:hover {
+          background-image: none;
           background-color: #cfd0d4;
         }
 
@@ -389,31 +392,33 @@ a:-webkit-any-link {
 }
 
 .u-section-4 .u-container-layout-1{
+  background-image: url("/images/prod2.jpg");
 	padding: 10px 10px;  
 }
 .u-section-4 .u-container-layout-2{
+  background-image: url("/images/prod2.jpg");
 	padding: 10px 10px;
 }
 .u-section-4 .u-container-layout-3{
+  background-image: url("/images/prod2.jpg");
 	padding: 10px 10px;
 }
 .u-section-4 .u-container-layout-4{
+  background-image: url("/images/prod2.jpg");
 	padding: 10px 10px;	
 }
 .u-section-4 .u-container-layout-5{
+  background-image: url("/images/prod2.jpg");
 	padding: 10px 10px;
 }
 .u-section-4 .u-container-layout-6{
+  background-image: url("/images/prod2.jpg");
 	padding: 10px 10px;
 }
 
 @media (max-width: 1199px) {
   .u-section-4 .u-sheet-1 {
     min-height: 500px;
-  }
-
-  .u-section-4 .u-text-3 {
-    width: auto;
   }
 
   .u-section-4 .u-repeater-1 {
@@ -450,6 +455,13 @@ a:-webkit-any-link {
     grid-template-columns: repeat(1, calc(100% - 15px));
   }
 
+.u-section-4 .u-text-2{
+  margin-right: 180px;
+}
+.u-section-4 .u-text-3{
+  margin-right: 180px;
+}
+
 }
 
 @media (max-width: 575px) {
@@ -458,7 +470,7 @@ a:-webkit-any-link {
   }
 
 .u-section-4 .u-list-1 {
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 20px;
   }
   .u-section-4 .u-repeater-1 {
